@@ -20,7 +20,7 @@ export default function Team() {
             <div className="max-w-7xl mx-auto">
                 <div className="flex items-baseline gap-4 mb-16">
                     <span className="bg-black text-white px-3 py-1 font-mono text-sm font-bold">03.</span>
-                    <h2 className="text-4xl md:text-6xl font-heading font-black text-black">MEET THE EXPERTS</h2>
+                    <h2 className="text-4xl md:text-6xl font-heading font-black text-black">MEET THE CODẺR</h2>
                 </div>
 
                 <div className="grid md:grid-cols-1 gap-8 max-w-2xl mx-auto">

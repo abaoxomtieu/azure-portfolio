@@ -8,9 +8,14 @@
     "start": "next start",
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "eslint"
+    "lint": "eslint",
+    "remotion:studio": "remotion studio",
+    "remotion:render": "remotion render AppDemo out/video.mp4",
+    "remotion:preview": "remotion preview"
   },
   "dependencies": {
+    "@remotion/media": "^4.0.414",
+    "@remotion/transitions": "^4.0.414",
     "@tailwindcss/typography": "^0.5.19",
     "clsx": "^2.1.1",
     "framer-motion": "^12.29.2",
@@ -29,9 +34,11 @@
     "remark-breaks": "^4.0.0",
     "remark-gfm": "^4.0.1",
     "remark-html": "^16.0.1",
+    "remotion": "^4.0.414",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
+    "@remotion/cli": "^4.0.414",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
