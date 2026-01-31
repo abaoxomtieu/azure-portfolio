@@ -72,10 +72,10 @@ export default async function Home() {
               ))}
           </div>
 
-          {/* Mục 2: Xây dựng Architecture */}
+          {/* Mục 2: Xây dựng Architecture (chỉ AI Application & AI ML/DL) */}
           <h3 className="text-xl sm:text-2xl font-heading font-bold text-black mb-4 mt-4">Xây dựng Architecture</h3>
           <p className="text-gray-700 text-base sm:text-lg mb-6 max-w-3xl">
-            Các kiến trúc thiết kế trên Azure: từ global SaaS đến AI Application & AI ML/DL theo scale nghìn → triệu request.
+            Thiết kế hệ thống AI Application (LLM, RAG, agent) và AI Machine Learning / Deep Learning trên Azure, từ nghìn đến triệu request, kèm use case cụ thể.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
             {practice
