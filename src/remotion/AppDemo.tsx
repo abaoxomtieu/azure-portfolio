@@ -910,7 +910,7 @@ const TeamScene: React.FC<{ sceneStartFrame: number }> = ({ sceneStartFrame }) =
 							textTransform: "uppercase",
 						}}
 					>
-						MEET THE CODẺR
+						MEET THE CODẺ
 					</h2>
 				</div>
 
