@@ -14,9 +14,9 @@ export default async function CertPage({ params }: { params: Promise<{ slug: str
     const post = await getPostBySlug(slug, "certs");
 
     return (
-        <div className="bg-white min-h-screen pt-24">
-            <div className="max-w-4xl mx-auto px-6 mb-20">
-                <Link href="/#certs" className="inline-flex items-center text-black font-bold uppercase tracking-widest hover:bg-black hover:text-white px-4 py-2 border-2 border-black transition-all mb-12">
+        <div className="bg-white min-h-screen pt-20 sm:pt-24">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 mb-12 sm:mb-20">
+                <Link href="/#certs" className="inline-flex items-center text-black font-bold uppercase tracking-widest hover:bg-black hover:text-white px-3 py-2 sm:px-4 border-2 border-black transition-all mb-8 sm:mb-12 text-sm sm:text-base">
                     <ArrowLeft className="w-4 h-4 mr-2" />
                     Quay Lại Chứng Chỉ
                 </Link>

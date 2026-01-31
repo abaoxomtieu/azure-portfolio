@@ -114,7 +114,7 @@ export default function MarkdownContent({ content }: { content: string }) {
                             return <pre {...props}>{children}</pre>;
                         }
                         return (
-                            <pre className="bg-gray-50 border border-gray-300 rounded-lg overflow-x-auto my-4" {...props}>
+                            <pre className="bg-gray-50 border border-gray-300 rounded-lg overflow-x-auto my-4 max-w-full text-sm sm:text-base" {...props}>
                                 {children}
                             </pre>
                         );
@@ -123,8 +123,8 @@ export default function MarkdownContent({ content }: { content: string }) {
                         <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 my-4" {...props} />
                     ),
                     table: ({node, ...props}) => (
-                        <div className="overflow-x-auto my-6">
-                            <table {...props} />
+                        <div className="overflow-x-auto my-6 -mx-1 sm:mx-0">
+                            <table className="w-full min-w-0" {...props} />
                         </div>
                     ),
                     thead: ({node, ...props}) => (

@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
     return (
-        <section className="py-24 px-6 bg-secondary/10 border-t-3 border-black">
+        <section className="py-12 sm:py-16 md:py-24 px-4 sm:px-6 bg-secondary/10 border-t-3 border-black">
             <div className="max-w-4xl mx-auto">
-                <div className="bg-white border-3 border-black p-8 md:p-12 brutalist-shadow">
-                    <h2 className="text-4xl md:text-5xl font-heading font-black text-black mb-8 uppercase">
+                <div className="bg-white border-3 border-black p-4 sm:p-6 md:p-8 lg:p-12 brutalist-shadow">
+                    <h2 className="text-2xl sm:text-4xl md:text-5xl font-heading font-black text-black mb-6 sm:mb-8 uppercase">
                         Start a Project
                     </h2>
 
@@ -42,7 +42,7 @@ export default function Contact() {
 
                         <button
                             type="submit"
-                            className="w-full h-14 bg-black text-white font-heading font-bold text-xl uppercase tracking-widest hover:bg-primary hover:text-black transition-colors border-2 border-black"
+                            className="w-full h-12 sm:h-14 bg-black text-white font-heading font-bold text-base sm:text-xl uppercase tracking-widest hover:bg-primary hover:text-black transition-colors border-2 border-black"
                         >
                             Gửi Yêu Cầu
                         </button>

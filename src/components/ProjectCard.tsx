@@ -22,9 +22,9 @@ export default function ProjectCard({ title, description, href, type, tags, inde
             transition={{ duration: 0.5, delay: index * 0.1 }}
         >
             <Link href={href} className="group block h-full">
-                <div className="relative h-full bg-white border-3 border-black p-8 transition-all duration-200 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[8px_8px_0px_#000000]">
+                <div className="relative h-full bg-white border-3 border-black p-4 sm:p-6 md:p-8 transition-all duration-200 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[8px_8px_0px_#000000]">
 
-                    <div className="flex items-center justify-between mb-6">
+                    <div className="flex items-center justify-between mb-4 sm:mb-6">
                         <span className={`inline-flex items-center gap-2 px-3 py-1 font-bold tracking-wider uppercase border-2 border-black text-xs ${type === 'cert' ? 'bg-secondary text-white' : 'bg-primary text-white'
                             }`}>
                             {type === 'cert' ? <BadgeCheck className="w-3 h-3" /> : <Code2 className="w-3 h-3" />}
@@ -35,12 +35,12 @@ export default function ProjectCard({ title, description, href, type, tags, inde
                         </div>
                     </div>
 
-                    <h3 className="text-2xl font-heading font-black text-black mb-3">
+                    <h3 className="text-xl sm:text-2xl font-heading font-black text-black mb-2 sm:mb-3">
                         {title}
                     </h3>
 
                     {description && (
-                        <p className="text-gray-700 text-sm leading-relaxed mb-6 font-medium">
+                        <p className="text-gray-700 text-sm leading-relaxed mb-4 sm:mb-6 font-medium">
                             {description}
                         </p>
                     )}
