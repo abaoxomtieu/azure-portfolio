@@ -1,4 +1,10 @@
-# Architecture 4: Global SaaS Platform (Production-Grade)
+---
+title: "Global SaaS Platform (Production-Grade)"
+description: "Kiến trúc multi-region, multi-tenant cho nền tảng SaaS quy mô 500K–2M users, 99.99% SLA."
+category: architecture
+---
+
+# Architecture: Global SaaS Platform (Production-Grade)
 
 ## Use Case
 **Nền tảng SaaS quản lý dự án (như Jira, Asana)**

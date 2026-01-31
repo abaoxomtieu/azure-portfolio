@@ -1,6 +1,7 @@
 ---
 title: Terraform với Azure – Ghi chép & Config End-to-End
 description: "Note Terraform khi làm việc với Azure: authentication, backend state, best practices, lưu ý và config từ đầu đến cuối."
+category: study
 ---
 
 # Terraform với Azure – Ghi chép & Config End-to-End

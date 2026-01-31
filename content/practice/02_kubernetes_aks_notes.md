@@ -1,6 +1,7 @@
 ---
 title: "Kubernetes (K8s) & AKS – Concepts & Production Reference"
 description: "Tổng hợp khái niệm Kubernetes, AKS, workload, scheduling, autoscaling, security và lưu ý production."
+category: study
 ---
 
 # Kubernetes (K8s) & AKS – Concepts & Production Reference
