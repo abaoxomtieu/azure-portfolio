@@ -201,7 +201,7 @@ const HeroScene: React.FC = () => {
 						textTransform: "uppercase",
 					}}
 				>
-					AZURE<span style={{ color: "#EC4899", fontStyle: "italic" }}>.PORTFOLIO</span>
+					ABAO<span style={{ color: "#EC4899", fontStyle: "italic" }}>.XOMTIEU</span>
 				</div>
 				<div style={{ display: "flex", gap: "32px" }}>
 					{["Certifications", "Architecture", "Team", "Contact"].map((item) => (
@@ -439,7 +439,7 @@ const NavigationClick: React.FC = () => {
 						textTransform: "uppercase",
 					}}
 				>
-					AZURE<span style={{ color: "#EC4899", fontStyle: "italic" }}>.PORTFOLIO</span>
+					ABAO<span style={{ color: "#EC4899", fontStyle: "italic" }}>.XOMTIEU</span>
 				</div>
 				<div style={{ display: "flex", gap: "32px" }}>
 					{["Certifications", "Architecture", "Team", "Contact"].map((item, index) => (

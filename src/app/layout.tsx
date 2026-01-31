@@ -4,8 +4,8 @@ import Navigation from "@/components/Navigation";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Azure Architecture Portfolio",
-  description: "Showcase of Azure certifications and practice architectures.",
+  title: "ABAO.XOMTIEU",
+  description: "Azure & architecture notes – certifications and practice.",
 };
 
 export default function RootLayout({

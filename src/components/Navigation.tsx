@@ -22,7 +22,7 @@ export default function Navigation() {
                     href="/"
                     className="font-heading font-black text-lg sm:text-2xl text-black tracking-tighter hover:text-primary transition-colors uppercase border-2 border-black px-2 py-1 bg-white hover:bg-black hover:text-white transform hover:-rotate-2 transition-all shrink-0"
                 >
-                    AZURE<span className="text-primary italic">.PORTFOLIO</span>
+                    ABAO<span className="text-primary italic">.XOMTIEU</span>
                 </Link>
 
                 <div className="hidden md:flex items-center gap-4 lg:gap-8">
