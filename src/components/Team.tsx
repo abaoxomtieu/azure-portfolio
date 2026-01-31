@@ -10,7 +10,7 @@ const members = [
         image: "https://api.dicebear.com/7.x/avataaars/svg?seed=ABAOXOMTIEU",
         color: "bg-primary",
         github: "https://github.com/abaoxomtieu",
-        facebook: "https://facebook.com/hotonbao"
+        facebook: "https://facebook.com/abaoxomtieu"
     }
 ];
 

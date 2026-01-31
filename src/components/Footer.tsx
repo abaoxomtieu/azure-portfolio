@@ -20,7 +20,7 @@ export default function Footer() {
 
                     <div className="flex flex-wrap gap-3 sm:gap-4">
                         <SocialLink href="https://github.com/abaoxomtieu">GitHub</SocialLink>
-                        <SocialLink href="https://facebook.com/hotonbao">Facebook</SocialLink>
+                        <SocialLink href="https://facebook.com/abaoxomtieu">Facebook</SocialLink>
                     </div>
                 </div>
             </div>
